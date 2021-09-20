@@ -7,8 +7,8 @@ for word in s:
         _dict[word] = i
     i += 1
 
-for alpha in 'abcdefghijklmnopqrstuvwxyz':
+for alphabet in 'abcdefghijklmnopqrstuvwxyz':
     try:
-        print(_dict[alpha], end=' ')
+        print(_dict[alphabet], end=' ')
     except:
         print(-1, end=' ')
