@@ -1,3 +1,4 @@
+'''
 s = input()
 i = 0
 _dict = {}
@@ -12,3 +13,9 @@ for alphabet in 'abcdefghijklmnopqrstuvwxyz':
         print(_dict[alphabet], end=' ')
     except:
         print(-1, end=' ')
+'''
+
+s = input()
+a = "abcdefghijklmnopqrstuvwxyz"
+for i in a:
+    print(s.find(i), end = ' ')
