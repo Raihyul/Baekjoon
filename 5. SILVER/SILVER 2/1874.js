@@ -7,7 +7,6 @@ const input = require("fs")
   .split("\n");
 
 const [n, ...progression] = input;
-열;
 function stackProgression(n, progression) {
   const stack = [1];
   const answer = ["+"];
